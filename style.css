@@ -1,0 +1,17 @@
+/* Style for the first section */
+.text-one h1 {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #e74c3c;
+
+}
+
+/* Style for the second section */
+.text-two p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+    color: aqua;
+}
