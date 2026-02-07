@@ -1,25 +1,23 @@
 class Calculator():
-    def add_one(self,x):
-        return x + 1
+    def addition(x, y):
+        return x + y
     
-    def subtraction(self, x):
-        return x - 1
+    def subtraction(x, y):
+        return x - y
     
-    def multiplication(self, x):
-        return x * 1
+    def divide(x, y):
+        return x / y
     
-    def divide(self, x):
-        return x % 1
+    def modulus(x, y):
+        return x % y
     
-num = Calculator()
-# num.add_one()
-num.subtraction()
-num.divide()
 
-print(num.add(1))
-print(num.subtraction(2))
-print(num.divide(3))
+num = Calculator
 
+print(num.addition(2, 2))
+print(num.subtraction(210, 2))
+print(num.divide(10,5))
+print(num.modulus(10, 5))
 
 
 
