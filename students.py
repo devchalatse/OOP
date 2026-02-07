@@ -20,11 +20,12 @@ class Course():
         return False
     
     def average_student(self):
-        if not self.students:
+      if not self.students:
             return 0
-        
-        total = sum(student.get_grades() for student in self.students)
-        return total / len(self.students)
+      total = sum(student.get_grades() for student in self.students)
+      return total/ len (self.students)
+    
+    
 
 s1 = Student('Thabo', 32, 85)
 s2 = Student('Chalatse', 19, 90)
