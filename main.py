@@ -14,10 +14,17 @@ class Calculator():
 
 num = Calculator
 
-print(num.addition(2, 2))
-print(num.subtraction(210, 2))
-print(num.divide(10,5))
-print(num.modulus(10, 5))
+y = int(input('Enter the value of y: '))
+x = int(input('Enter the value of x: '))
 
+total = x + y
+total2 = x - y
+total3 = x / y
+total4 = x % y
+
+print(f'{x} + {y} = {total}')
+print(f'{x} - {y} = {total2}')
+print(f'{x} / {y} = {total3}')
+print(f'{x} % {y} = {total4}')
 
 
